@@ -1,0 +1,27 @@
+# Local/private files
+# Ignore environment-specific folders
+archive/
+configs/
+data/
+db/
+logs/
+schemas/
+views/
+
+# Include sample/ for public examples
+!sample/
+
+# Python cache
+# Python artifacts
+__pycache__/
+*.pyc
+
+# SQLite databases
+*.db
+
+# Environment files
+.env
+
+# Virtual environments
+venv/
+.venv/
