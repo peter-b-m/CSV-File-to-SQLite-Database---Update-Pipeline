@@ -1,0 +1,22 @@
+# raw_european_star_signs.yaml
+
+columns:
+  - name: European_Star_Sign
+    type: TEXT
+    not_null: true
+  - name: Start_Month
+    type: INTEGER
+    not_null: true
+  - name: Start_Day
+    type: INTEGER
+    not_null: true
+  - name: End_Month
+    type: INTEGER
+    not_null: true
+  - name: End_Day
+    type: INTEGER
+    not_null: true
+primary_key:
+  - Start_Month
+#checks:
+#  - expression: ?

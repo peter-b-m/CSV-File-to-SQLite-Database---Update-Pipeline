@@ -10,14 +10,20 @@ views/
 
 # Include sample/ for public examples
 !sample/
+!sample/configs
+!sample/data
+!sample/db
+!sample/logs
+!sample/schemas
+!sample/views
+
+# Ignore specific file types but keep folders
+sample/logs/dev/*.log
 
 # Python cache
 # Python artifacts
 __pycache__/
 *.pyc
-
-# SQLite databases
-*.db
 
 # Environment files
 .env

@@ -1,0 +1,13 @@
+# raw_birthdays_of_famous_people.yaml
+
+columns:
+  - name: Name
+    type: TEXT
+    not_null: true
+  - name: Date_Of_Birth
+    type: TEXT
+    not_null: true
+primary_key:
+  - Name
+#checks:
+#  - expression: ?

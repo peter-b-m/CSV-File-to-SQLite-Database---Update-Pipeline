@@ -1,0 +1,25 @@
+# raw_chinese_star_signs.yaml
+
+columns:
+  - name: Start_Date
+    type: TEXT
+    not_null: true
+  - name: End_Date
+    type: TEXT
+    not_null: true
+  - name: Chinese_Star_Sign
+    type: TEXT
+    not_null: true
+  - name: Yin_Yang
+    type: TEXT
+    not_null: true
+  - name: Element
+    type: TEXT
+    not_null: true
+  - name: Trine
+    type: TEXT
+    not_null: true
+primary_key:
+  - Start_Date
+#checks:
+#  - expression: ?

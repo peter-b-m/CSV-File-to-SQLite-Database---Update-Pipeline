@@ -1,0 +1,23 @@
+# manifest.yaml
+
+tables:
+  - name: raw_birthdays_of_famous_people
+    schema: raw_birthdays_of_famous_people.yaml
+    data_folder: raw_birthdays_of_famous_people
+    required: true
+    load: true
+    allow_schema_change: true
+
+  - name: raw_chinese_star_signs
+    schema: raw_chinese_star_signs.yaml
+    data_folder: raw_chinese_star_signs
+    required: true
+    load: true
+    allow_schema_change: true
+
+  - name: raw_european_star_signs
+    schema: raw_european_star_signs.yaml
+    data_folder: raw_european_star_signs
+    required: true
+    load: true
+    allow_schema_change: true
