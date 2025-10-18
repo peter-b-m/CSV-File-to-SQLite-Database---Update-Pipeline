@@ -17,6 +17,9 @@ views/
 !sample/schemas
 !sample/views
 
+# Ignore hidden macOS system files
+**/.DS_Store
+
 # Ignore specific file types but keep folders
 sample/logs/dev/*.log
 
