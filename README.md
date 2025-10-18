@@ -1,6 +1,9 @@
 ```markdown
 # 🌌 CSV File to SQLite Database - Update Pipeline
 
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/language-Python-blue)
+
 A modular Python pipeline for ingesting and transforming CSV files into an SQLite database. Designed for flexibility, clarity, and future extensibility—including base layer transformations.
 
 ## 📦 Features
